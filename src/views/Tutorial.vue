@@ -9,7 +9,7 @@
         <div class="card">
           <div class="card-header">
             <div class="card-header-title">
-              Featured
+              Featured Tutorials Series
             </div>
           </div>
           <div class="card-content">
@@ -23,7 +23,9 @@
                 </figure>
               </div>
               <div class="media-content">
-                <p class="title is-5">Learn Neural Networks with Brain.js</p>
+                <p class="title is-5">
+                  Learn Neural Networks with Brain.js
+                </p>
                 <p class="subtitle is-6">
                   <a href="https://scrimba.com/@robertleeplummerjr"
                     >Robert Plummer</a
@@ -33,7 +35,10 @@
             </div>
 
             <div class="content">
-              A tutorial series to understand Neural Networks and Brain.js
+              A tutorial series to understand Neural Networks and Brain.js by
+              <a href="https://github.com/robertleeplummerjr"
+                >Robert Plummer, author of Brain.js</a
+              >
             </div>
 
             <a
@@ -50,7 +55,7 @@
     <br />
     <br />
     <br />
-    <nav class="navbar is-light" style="z-index: 1">
+    <nav class="navbar is-dark" style="z-index: 1">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search Tutorials:</span>

@@ -4,7 +4,7 @@
     <h2 class="subtitle is-4">Some quick samples to quickly learn Brain.js</h2>
 
     <br />
-    <nav class="navbar is-light" style="z-index: 1">
+    <nav class="navbar is-dark" style="z-index: 1">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search Examples:</span>
@@ -24,35 +24,35 @@
         :ref="example.title"
         class="example-container"
       >
-        <p class="title is-5">{{ example.title }}</p>
-        <p class="subtitle is-6">{{ example.description }}</p>
-
         <bulmaAccordion
-          :icon="'plus-minus'"
-          :slide="{ duration: '250ms', timerFunc: 'ease-out' }"
+          :icon="'caret'"
+          :slide="{ duration: '100ms', timerFunc: 'ease-out' }"
           @toggle="exampleClickHandler(example.title)"
         >
           <BulmaAccordionItem>
-            <h4 slot="title">View Exmaple</h4>
-            <p slot="content">
+            <div slot="title">
+              <h4 class="title is-5 has-text-weight-normal">
+                {{ example.title }}
+              </h4>
+              <p class="subtitle is-6">{{ example.description }}</p>
+            </div>
+            <div slot="content">
               <iframe
                 :src="example.link"
                 width="100%"
-                height="300"
+                height="480px"
                 allowfullscreen="allowfullscreen"
-                allowpaymentrequest
                 frameborder="0"
               />
-            </p>
+            </div>
           </BulmaAccordionItem>
         </bulmaAccordion>
-        <br />
         <br />
       </div>
     </transition-group>
 
     <br />
-    <div class="message is-info">
+    <div class="message is-primary">
       <div class="message-header">
         Looking for more examples?
       </div>
@@ -171,16 +171,10 @@ export default {
 </script>
 
 <style lang="sass">
+iframe
+  height: 480px
+
 .accordion
-  .card
-    &:hover
-      box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px, rgba(0, 0, 0, 0.05) 0px 0.5px 1px;
-      transform: none;
   .card-header
     cursor: pointer
-  .card-header-title
-    color: rgba(55, 122, 195, 0.95)
-  .plus-minus
-    div
-      background-color: rgba(55, 122, 195, 0.95)
 </style>

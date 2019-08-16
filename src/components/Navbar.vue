@@ -36,11 +36,11 @@
           &nbsp;Getting Started
         </router-link>
         <router-link to="/tutorial" class="navbar-item" title="Tutorials">
-          <i class="material-icons">help</i>
+          <i class="material-icons">school</i>
           &nbsp;Tutorials
         </router-link>
         <router-link to="/examples" class="navbar-item" title="View Examples">
-          <i class="material-icons">collections</i>
+          <i class="material-icons">list_alt</i>
           &nbsp;Examples
         </router-link>
         <a
@@ -49,7 +49,7 @@
           title="View Documentation"
           target="_blank"
         >
-          <i class="material-icons">list</i>
+          <i class="material-icons">view_list</i>
           &nbsp;Documentation
         </a>
       </div>
@@ -59,18 +59,10 @@
           <div class="field is-grouped">
             <p class="control">
               <a
-                href="https://nodei.co/npm/brain.js/"
-                style="border-bottom: none"
-              >
-                <img src="https://nodei.co/npm/brain.js.png?compact=true" />
-              </a>
-            </p>
-            <p class="control">
-              <a
                 class="bd-tw-button button is-default"
                 target="_blank"
                 title="Tweet about Brain.js"
-                href="//twitter.com/intent/tweet?text=Brain.js: Neural networks in JavaScript&amp;hashtags=brain.js,neuralNetworks,javascript,node"
+                href="//twitter.com/intent/tweet?text=Brain.js: GPU accelerated Neural networks in JavaScript&amp;hashtags=brain.js,neuralNetworks,javascript,nodejs"
               >
                 <i class="material-icons">share</i>
               </a>

@@ -1,4 +1,4 @@
-# src
+# Brain.js.org
 
 ## Project setup
 

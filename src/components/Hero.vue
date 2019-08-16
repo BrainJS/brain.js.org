@@ -7,11 +7,13 @@
       <div class="container">
         <article class="media">
           <figure class="media-left">
-            <p class="image is-256x256">
+            <p class="image is-128x128">
               <img
                 src="@/assets/logo.svg"
                 alt="brain.js logo"
                 class="bordered"
+                width="128"
+                height="128"
               />
             </p>
           </figure>
@@ -55,7 +57,17 @@
                     </a>
                   </p>
                 </div>
+                <br />
               </div>
+
+              <p class="control">
+                <a
+                  href="https://nodei.co/npm/brain.js/"
+                  style="border-bottom: none"
+                >
+                  <img src="https://nodei.co/npm/brain.js.png?compact=true" />
+                </a>
+              </p>
             </div>
           </div>
         </article>
