@@ -18,6 +18,12 @@ npm run serve
 npm run build
 ```
 
+### Deploys to gh-pages branch of Brain.js.org
+
+```bash
+npm run deploy
+```
+
 ### Lints and fixes files
 
 ```bash

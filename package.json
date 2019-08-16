@@ -74,8 +74,8 @@
   },
   "private": true,
   "scripts": {
-    "build": "vue-cli-service build --no-clean --modern",
-    "deploy": "git subtree push --prefix dist https://github.com/BrainJS/brain.js gh-pages",
+    "build": "vue-cli-service build --modern",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "dev": "npm run serve --open",
     "lint": "vue-cli-service lint",
     "serve": "vue-cli-service serve"
