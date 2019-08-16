@@ -77,7 +77,8 @@
     "build": "vue-cli-service build --modern",
     "dev": "npm run serve --open",
     "lint": "vue-cli-service lint",
-    "serve": "vue-cli-service serve"
+    "serve": "vue-cli-service serve",
+    "deploy": "git subtree push --prefix=dist https://github.com/BrainJS/brain.js.org gh-pages"
   },
   "version": "0.1.0"
 }
