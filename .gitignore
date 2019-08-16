@@ -1,9 +1,5 @@
 .DS_Store
 node_modules
-/dist
-/docs
-/build
-/gh-pages
 
 # local env files
 .env.local

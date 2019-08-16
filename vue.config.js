@@ -1,7 +1,7 @@
 // vue.config.js
 module.exports = {
   configureWebpack: {},
-  outputDir: 'gh-pages',
+  outputDir: 'dist',
   publicPath: './',
   filenameHashing: false,
 }
