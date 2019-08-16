@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "80e57620b43b5ef76c8c",
+    "revision": "ee56f11cd87d1a5e5252",
     "url": "css/app.css"
   },
   {
-    "revision": "80e57620b43b5ef76c8c",
+    "revision": "ee56f11cd87d1a5e5252",
     "url": "js/app-legacy.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "js/chunk-vendors-legacy.js"
   },
   {
-    "revision": "de2e7437b6b46f488fe8",
+    "revision": "e366a733b329362b6e9a",
     "url": "css/examples.css"
   },
   {
-    "revision": "de2e7437b6b46f488fe8",
+    "revision": "e366a733b329362b6e9a",
     "url": "js/examples-legacy.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "js/getting-started-legacy.js"
   },
   {
-    "revision": "537bfcd916b795b919c4",
+    "revision": "211c83bdff01a4b9477c",
     "url": "js/tutorial-legacy.js"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "img/logo.svg"
   },
   {
-    "revision": "148e6f271981b9747228cd5cb9c3ae2c",
+    "revision": "d0738c045af7fecab875d1131b19297d",
     "url": "index.html"
   }
 ];
