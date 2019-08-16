@@ -1,0 +1,83 @@
+{
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "bulma-addons": "^0.1.12",
+    "bulma-fluent": "^0.3.18",
+    "intersection-observer": "^0.7.0",
+    "register-service-worker": "^1.6.2",
+    "scrollama": "^2.0.1",
+    "vue": "^2.6.10",
+    "vue-bulma-accordion": "^0.4.8",
+    "vue-router": "^3.1.2",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-pwa": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "imports-loader": "^0.8.0",
+    "lint-staged": "^9.2.1",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^7.2.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended",
+      "@vue/prettier"
+    ],
+    "globals": {},
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "parser": "babel-eslint",
+      "sourceType": "module"
+    },
+    "root": true,
+    "rules": {}
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "*.vue": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "name": "brain.js",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build --modern",
+    "dev": "npm run serve --open",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.0"
+}

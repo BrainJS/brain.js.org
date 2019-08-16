@@ -1,0 +1,47 @@
+// generic classes
+.bordered
+  border: 1px solid #000
+
+// transition hero size
+.hero
+  &:not(.is-large)
+    .description
+      display: none
+
+  .hero-body
+    transition: padding 0.25s ease-out
+
+.footer
+  &.is-dark
+    border-top: 3px solid #ececec
+
+
+.highlight-list
+  .message
+    display: inline-block
+    width: 47.5%
+    margin-bottom: 5%!important
+    &:nth-child(2n)
+      margin-left: 5%
+    .message-body
+      background-color: #fff
+
+@media only screen and (max-width: 1023px)
+  .highlight-list
+    .message
+      width: 100%
+      margin-left: 0!important
+
+.custom-box
+  .box
+    display: inline-block
+    width: 48.5%
+    margin-bottom: 3%
+    &:nth-child(2n)
+      margin-left: 3%
+
+@media only screen and (max-width: 1023px)
+  .custom-box
+    .box
+      width: 100%
+      margin-left: 0!important
