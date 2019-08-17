@@ -28,7 +28,7 @@
     <h2 class="subtitle is-4">Download</h2>
     <div class="content">
       You can manually download and include script file in your project:
-      <a href="//unpkg.com/brain.js/dist/brain.min.js">Download Now</a>
+      <a href="//unpkg.com/brain.js">Download Now</a>
     </div>
 
     <h2 class="title is-3">
