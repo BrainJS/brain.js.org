@@ -65,7 +65,7 @@
                   href="https://nodei.co/npm/brain.js/"
                   style="border-bottom: none"
                 >
-                  <img src="https://nodei.co/npm/brain.js.png?compact=true" />
+                  <img src="https://nodei.co/npm/brain.js.png?mini=true" />
                 </a>
               </p>
             </div>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="custom-tags has-text-centered">
+    <!-- <div class="custom-tags has-text-centered">
       <span
         v-for="feature in $store.state.features"
         :key="feature.title"
@@ -10,7 +10,7 @@
     </div>
 
     <br />
-    <br />
+    <br /> -->
     <!-- <h2 class="title is-3">Highlights</h2>
     <hr> -->
     <div class="container">
@@ -20,17 +20,13 @@
           :key="highlight.title"
           class="message is-primary"
         >
-          <!-- <div class="message-header">
-            <p><strong>{{ highlight.title }}</strong></p>
-          </div> -->
+          <div class="message-header">
+            {{ highlight.title }}
+          </div>
           <div class="message-body">
-            <strong class="title is-4">
-              {{ highlight.title }}
-            </strong>
-            <br />
-            <br />
             {{ highlight.description }}
-            <br /><br />
+          </div>
+          <div class="message-footer">
             <a v-show="highlight.link" :href="highlight.link">Details</a>
           </div>
         </article>

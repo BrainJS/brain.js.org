@@ -126,28 +126,28 @@ export default new Vuex.Store({
         title: 'XOR function',
         description:
           "Here's an example showcasing how to approximate the XOR function.",
-        link: '//jsfiddle.net/mubaidr/efLq26xd/2/embedded/js,result/',
+        link: '//jsfiddle.net/mubaidr/efLq26xd/embedded/js,result/',
       },
       {
         title: 'Simple Letter Detection',
         description: 'Detect letters from text.',
-        link: '//jsfiddle.net/mubaidr/79Lkqsb5/2/embedded/js,result/',
+        link: '//jsfiddle.net/mubaidr/79Lkqsb5/embedded/js,result/',
       },
       {
         title: 'Childrens Book',
         description:
           "Writing a children's book using a recurrent neural network.",
-        link: '//jsfiddle.net/mubaidr/zdLh6bsn/3/embedded/js,result/',
+        link: '//jsfiddle.net/mubaidr/zdLh6bsn/embedded/js,result/',
       },
       {
         title: 'Color Contrast',
         description: 'Get suitable text color for given background color.',
-        link: '//jsfiddle.net/mubaidr/9vcqrb0p/1/embedded/js,result/',
+        link: '//jsfiddle.net/mubaidr/9vcqrb0p/embedded/js,result/',
       },
       {
         title: 'Guess Number',
         description: 'Guess next number in series.',
-        link: '//jsfiddle.net/mubaidr/8yeo2jmd/1/embedded/js,result/',
+        link: '//jsfiddle.net/mubaidr/8yeo2jmd/embedded/js,result/',
       },
     ],
   },

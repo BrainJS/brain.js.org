@@ -8,6 +8,11 @@
     <!-- NPM -->
     <h2 class="subtitle is-4">NPM</h2>
     <div class="content">
+      <p class="control">
+        <a href="https://nodei.co/npm/brain.js/" style="border-bottom: none">
+          <img src="https://nodei.co/npm/brain.js.png?compact=true" />
+        </a>
+      </p>
       <code>npm install brain.js --save</code>
     </div>
 
@@ -15,8 +20,7 @@
     <h2 class="subtitle is-4">CDN</h2>
     <div class="content">
       <code>
-        &lt;script
-        src=&quot;//unpkg.com/brain.js/dist/brain.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;//unpkg.com/brain.js&quot;&gt;&lt;/script&gt;
       </code>
     </div>
 
