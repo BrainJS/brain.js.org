@@ -58,7 +58,7 @@
     <nav class="navbar is-dark" style="z-index: 1">
       <div class="navbar-brand">
         <span class="navbar-item">
-          <span>Search Tutorials:</span>
+          <span>Search:</span>
         </span>
         <div class="navbar-item">
           <input v-model="search" class="input" type="text" placeholder="" />
