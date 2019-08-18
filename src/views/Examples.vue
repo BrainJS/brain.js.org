@@ -10,7 +10,12 @@
           <span>Search:</span>
         </span>
         <div class="navbar-item">
-          <input v-model="search" class="input" type="text" placeholder="" />
+          <input
+            v-model="search"
+            class="input is-dark"
+            type="text"
+            placeholder=""
+          />
         </div>
       </div>
     </nav>

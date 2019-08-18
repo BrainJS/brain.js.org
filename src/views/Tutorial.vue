@@ -4,54 +4,45 @@
     <h2 class="subtitle is-4">Tutorials and guides to learn about Brain.js</h2>
 
     <br />
-    <div class="columns">
-      <div class="column">
-        <div class="card">
-          <div class="card-header">
+    <h4 class="subtitle is-6">Featured:</h4>
+    <div class="card">
+      <!-- <div class="card-header">
             <div class="card-header-title">
-              Featured Tutorials Series
+              Featured
             </div>
+          </div> -->
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img
+                src="https://avatars2.githubusercontent.com/u/679099?s=400&v=4"
+                alt="Placeholder image"
+              />
+            </figure>
           </div>
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img
-                    src="https://avatars2.githubusercontent.com/u/679099?s=400&v=4"
-                    alt="Placeholder image"
-                  />
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-5">
-                  Learn Neural Networks with Brain.js
-                </p>
-                <p class="subtitle is-6">
-                  <a href="https://scrimba.com/@robertleeplummerjr"
-                    >Robert Plummer</a
-                  >
-                </p>
-              </div>
-            </div>
-
-            <div class="content">
-              A tutorial series to understand Neural Networks and Brain.js by
-              <a href="https://github.com/robertleeplummerjr"
-                >Robert Plummer, author of Brain.js</a
+          <div class="media-content">
+            <p class="title is-5">
+              <a href="https://scrimba.com/playlist/pVZJQfg">
+                Learn Neural Networks with Brain.js</a
               >
-            </div>
-
-            <a
-              class="button is-primary"
-              href="https://scrimba.com/playlist/pVZJQfg"
-              target="_blank"
-              >Open</a
-            >
+            </p>
+            <p class="subtitle is-6">
+              <a href="https://scrimba.com/@robertleeplummerjr"
+                >Robert Plummer</a
+              >
+            </p>
           </div>
+        </div>
+
+        <div class="content">
+          A tutorial series to understand Neural Networks and Brain.js by
+          <a href="https://github.com/robertleeplummerjr"
+            >Robert Plummer, author of Brain.js</a
+          >
         </div>
       </div>
     </div>
-
     <br />
     <br />
     <br />
@@ -61,7 +52,12 @@
           <span>Search:</span>
         </span>
         <div class="navbar-item">
-          <input v-model="search" class="input" type="text" placeholder="" />
+          <input
+            v-model="search"
+            class="input is-dark"
+            type="text"
+            placeholder=""
+          />
         </div>
       </div>
     </nav>
@@ -75,11 +71,10 @@
           :key="index"
           class="box"
         >
-          <p class="title is-5">{{ tutorial.title }}</p>
+          <p class="title is-5">
+            <a :href="tutorial.link" target="_blank">{{ tutorial.title }}</a>
+          </p>
           <p class="subtitle is-6">{{ tutorial.author }}</p>
-          <a :href="tutorial.link" class="button is-primary" target="_blank"
-            >Open</a
-          >
         </div>
       </transition-group>
     </div>

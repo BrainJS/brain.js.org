@@ -39,7 +39,7 @@
     <div class="content has-text-centered">
       <div id="svg-logo-animation-container" ref="svg-logo-animation-container">
         <h2 class="title is-3">Brain.js is Modular</h2>
-        <h3 class="subtitle is-5">
+        <h3 class="subtitle is-5 has-text-weight-normal">
           Brain.js implmentation is highly modular to easily allow
           extendability.
         </h3>
@@ -147,83 +147,47 @@
     <br />
 
     <div class="content has-text-centered">
-      <h2 class="title is-3">Sponsors/ Backers</h2>
-      <p>Thank you to all our Sponsors and Backers! 🙏</p>
-      <p>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/0/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/0/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/1/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/1/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/2/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/2/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/3/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/3/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/4/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/4/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/5/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/5/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/6/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/6/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/7/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/7/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/8/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/8/avatar.svg"
-        /></a>
-        <a
-          href="https://opencollective.com/brainjs/sponsor/9/website"
-          target="_blank"
-          ><img src="https://opencollective.com/brainjs/sponsor/9/avatar.svg"
-        /></a>
-
-        <br />
-        <a href="https://opencollective.com/brainjs#backers" target="_blank"
-          ><img src="https://opencollective.com/brainjs/backers.svg?width=890"
-        /></a>
-      </p>
-    </div>
-
-    <br />
-    <hr />
-    <br />
-
-    <div class="content has-text-centered">
       <h2 class="title is-3">Contributors</h2>
       <p>
-        This project exists thanks to all the people who contribute.<br /><br />
-        <a href="graphs/contributors"
+        This project exists thanks to all the people who contribute. 🙏<br /><br />
+        <a
+          href="https://github.com/BrainJS/brain.js/graphs/contributors"
+          target="_blank"
           ><img
-            src="https://opencollective.com/brainjs/contributors.svg?width=890&button=false"
+            src="https://opencollective.com/brainjs/contributors.svg?width=480&button=false"
+            width="480"
+            loading="lazy"
         /></a>
       </p>
     </div>
 
-    <br />
+    <div class="content has-text-centered">
+      <h2 class="title is-3">Backers</h2>
+      <p>
+        Thank you all the backers! 🙏<br /><br />
+        <a
+          href="https://opencollective.com/brainjs#contributors"
+          target="_blank"
+          ><img
+            src="https://opencollective.com/brainjs/backers.svg?width=480&button=false"
+            width="480"
+            loading="lazy"
+        /></a>
+      </p>
+    </div>
+
+    <div class="content has-text-centered">
+      <h2 class="title is-3">Sponsors</h2>
+      <p>Thank you all the sponsors! 🙏<br /><br /></p>
+      <p>
+        <a href="https://opencollective.com/brainjs" target="_blank"
+          ><img
+            src="https://opencollective.com/brainjs/sponsors.svg?width=480"
+            width="480"
+            loading="lazy"
+        /></a>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -310,10 +274,4 @@ export default {
       max-width: 640px
     .logo-parts
       transform: translateX(-25px) translateY(-42px)
-
-.vue-swimlane
-  // border: 2px solid whitesmoke
-  li
-    // background-color: black
-    color: #f3df49
 </style>

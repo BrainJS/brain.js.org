@@ -59,7 +59,7 @@
           <div class="field is-grouped">
             <p class="control">
               <a
-                class="bd-tw-button button is-default"
+                class="bd-tw-button button is-light"
                 target="_blank"
                 title="Tweet about Brain.js"
                 href="//twitter.com/intent/tweet?text=Brain.js: GPU accelerated Neural networks in JavaScript&amp;hashtags=brain.js,neuralNetworks,javascript,nodejs"
@@ -69,8 +69,19 @@
             </p>
             <p class="control">
               <a
+                class="button is-light"
+                target="_blank"
+                title="Brain.js on Github"
+                href="//github.com/BrainJS/brain.js"
+              >
+                Github
+              </a>
+            </p>
+            <p class="control">
+              <a
                 class="button is-primary"
                 title="Be a Sponsor or Backer to this project"
+                target="_blank"
                 href="//opencollective.com/brainjs"
               >
                 <i class="material-icons">attach_money</i>
