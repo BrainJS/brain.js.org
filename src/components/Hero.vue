@@ -44,7 +44,7 @@
                       title="Installation & Quick Start"
                     >
                       <i class="material-icons">flash_on</i>
-                      <span>Gett Started Now</span>
+                      <span>Get Started Now</span>
                     </router-link>
                   </p>
                 </div>
