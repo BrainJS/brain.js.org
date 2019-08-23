@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "js/chunk-vendors-legacy.js"
   },
   {
-    "revision": "dd712cc3ef502bdf3b11",
+    "revision": "c7ce9f5057f49fa24426",
     "url": "css/examples.css"
   },
   {
-    "revision": "dd712cc3ef502bdf3b11",
+    "revision": "c7ce9f5057f49fa24426",
     "url": "js/examples-legacy.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "js/getting-started-legacy.js"
   },
   {
-    "revision": "0efa04b5e32907f2c13f",
+    "revision": "fa27e77dbd32ba76ba08",
     "url": "js/tutorial-legacy.js"
   },
   {
