@@ -126,11 +126,13 @@ export default {
 
   computed: {
     filteredTutorials() {
+      const query = this.search.toLowerCase()
+
       return this.$store.state.tutorials.filter(t => {
         return (
-          t.title.includes(this.search) ||
-          t.author.includes(this.search) ||
-          t.link.includes(this.search)
+          t.title.includes(query) ||
+          t.author.includes(query) ||
+          t.link.includes(query)
         )
       })
     },
