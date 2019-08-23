@@ -1,24 +1,11 @@
 <template>
   <div>
-    <!-- <div class="custom-tags has-text-centered">
-      <span
-        v-for="feature in $store.state.features"
-        :key="feature.title"
-        class="tag is-light is-small"
-        >{{ feature.title }}</span
-      >
-    </div>
-
-    <br />
-    <br /> -->
-    <!-- <h2 class="title is-3">Highlights</h2>
-    <hr> -->
     <div class="container">
       <div class="highlight-list">
         <article
           v-for="highlight in $store.state.highlights"
           :key="highlight.title"
-          class="message is-primary"
+          class="message is-dark"
         >
           <div class="message-header">
             {{ highlight.title }}
@@ -77,6 +64,17 @@
           </svg>
         </div>
       </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="custom-tags has-text-centered">
+      <span
+        v-for="feature in $store.state.features"
+        :key="feature.title"
+        class="tag is-medium is-dark"
+        >{{ feature.title }}</span
+      >
     </div>
 
     <br />

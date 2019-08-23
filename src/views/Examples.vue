@@ -132,8 +132,8 @@ export default {
 
       return this.$store.state.examples.filter(t => {
         return (
-          t.title.includes(query) ||
-          t.description.includes(query) ||
+          t.title.toLowerCase().includes(query) ||
+          t.description.toLowerCase().includes(query) ||
           t.link.includes(query)
         )
       })

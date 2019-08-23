@@ -130,8 +130,8 @@ export default {
 
       return this.$store.state.tutorials.filter(t => {
         return (
-          t.title.includes(query) ||
-          t.author.includes(query) ||
+          t.title.toLowerCase().includes(query) ||
+          t.author.toLowerCase().includes(query) ||
           t.link.includes(query)
         )
       })
