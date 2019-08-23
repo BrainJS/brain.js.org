@@ -4,7 +4,7 @@
     <h2 class="subtitle is-4">Some quick samples to quickly learn Brain.js</h2>
 
     <br />
-    <nav class="navbar is-dark" style="z-index: 1">
+    <nav class="navbar is-light" style="z-index: 1">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search:</span>
@@ -12,7 +12,7 @@
         <div class="navbar-item">
           <input
             v-model="search"
-            class="input is-dark"
+            class="input is-light"
             type="text"
             placeholder=""
           />
@@ -57,18 +57,19 @@
     </transition-group>
 
     <br />
-    <div class="message is-primary">
+    <div class="message is-dark">
       <div class="message-header">
         Looking for more examples?
       </div>
       <div class="message-body">
-        Brain.js github repository also contains some
-        <a href="https://github.com/BrainJS/brain.js/tree/master/examples"
+        Brain.js github repository also contains many
+        <a
+          href="https://github.com/BrainJS/brain.js/tree/master/examples/javascript"
           >JavaScript Examples</a
         >
         and
         <a
-          href="https://github.com/BrainJS/brain.js/tree/master/examples-typescript"
+          href="https://github.com/BrainJS/brain.js/tree/master/examples/typescript"
           >Typescript Examples</a
         >.
       </div>

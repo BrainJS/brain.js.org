@@ -4,14 +4,11 @@
     <h2 class="subtitle is-4">Tutorials and guides to learn about Brain.js</h2>
 
     <br />
-    <h4 class="subtitle is-6">Featured:</h4>
-    <div class="card">
-      <!-- <div class="card-header">
-            <div class="card-header-title">
-              Featured
-            </div>
-          </div> -->
-      <div class="card-content">
+    <div class="message is-dark">
+      <div class="message-header">
+        Featured:
+      </div>
+      <div class="message-body">
         <div class="media">
           <div class="media-left">
             <figure class="image is-48x48">
@@ -28,6 +25,7 @@
               >
             </p>
             <p class="subtitle is-6">
+              by
               <a href="https://scrimba.com/@robertleeplummerjr"
                 >Robert Plummer</a
               >
@@ -35,18 +33,17 @@
           </div>
         </div>
 
+        <br />
         <div class="content">
-          A tutorial series to understand Neural Networks and Brain.js by
-          <a href="https://github.com/robertleeplummerjr"
-            >Robert Plummer, author of Brain.js</a
-          >
+          A tutorial series to understand Neural Networks and Brain.js by Robert
+          Plummer, author of Brain.js
         </div>
       </div>
     </div>
+
     <br />
     <br />
-    <br />
-    <nav class="navbar is-dark" style="z-index: 1">
+    <nav class="navbar is-light" style="z-index: 1">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search:</span>
@@ -54,7 +51,7 @@
         <div class="navbar-item">
           <input
             v-model="search"
-            class="input is-dark"
+            class="input is-light"
             type="text"
             placeholder=""
           />

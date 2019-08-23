@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "js/chunk-vendors.js"
   },
   {
-    "revision": "8a033bedfd915ffcc0fb",
+    "revision": "e3f575f0c22bf6ac4917",
     "url": "css/examples.css"
   },
   {
-    "revision": "8a033bedfd915ffcc0fb",
+    "revision": "e3f575f0c22bf6ac4917",
     "url": "js/examples.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "js/getting-started.js"
   },
   {
-    "revision": "4bf9489b781756ad99e9",
+    "revision": "e5d825f43f99418e2211",
     "url": "js/tutorial.js"
   },
   {

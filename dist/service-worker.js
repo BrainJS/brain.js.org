@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.dc9148ed20c18cc6dee2057d5cda3cb5.js"
+  "precache-manifest.56fbba19493ebec07ac3747ea8a99939.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "brain.js"});
