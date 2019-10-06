@@ -13,7 +13,8 @@
       </router-link>
       <div
         class="navbar-burger burger"
-        data-target="navbarExampleTransparentExample"
+        :class="{ 'is-active': isNavBarOpen }"
+        @click="toggleNavbar"
       >
         <span />
         <span />
@@ -21,7 +22,7 @@
       </div>
     </div>
 
-    <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-menu" :class="{ 'is-active': isNavBarOpen }">
       <div class="navbar-start">
         <router-link to="/" class="navbar-item" title="Home">
           <i class="material-icons">home</i>
@@ -96,7 +97,25 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      isNavBarOpen: false,
+    }
+  },
+
+  watch: {
+    $route() {
+      this.toggleNavbar()
+    },
+  },
+
+  methods: {
+    toggleNavbar() {
+      this.isNavBarOpen = !this.isNavBarOpen
+    },
+  },
+}
 </script>
 
 <style lang="sass"></style>

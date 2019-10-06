@@ -31,7 +31,7 @@
 
               <div class="description">
                 <hr />
-                <p class="is-3">
+                <p class="is-size-5">
                   Brain.js is a GPU accelerated library of Neural Networks
                   written in JavaScript for Browsers and Node.js. It is simple,
                   fast and easy to use.
@@ -46,6 +46,16 @@
                       <i class="material-icons">flash_on</i>
                       <span>Get Started Now</span>
                     </router-link>
+                  </p>
+                  <p class="control npm">
+                    <a
+                      href="https://nodei.co/npm/brain.js"
+                      style="border-bottom: none"
+                    >
+                      <img
+                        src="https://nodei.co/npm/brain.js.png/?compact=true"
+                      />
+                    </a>
                   </p>
                 </div>
               </div>
@@ -71,4 +81,8 @@
 export default {}
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.control.npm
+  img
+    height: 36px;
+</style>

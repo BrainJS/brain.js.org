@@ -9,10 +9,10 @@
     "bulma-fluent": "^0.3.18",
     "intersection-observer": "^0.7.0",
     "register-service-worker": "^1.6.2",
-    "scrollama": "^2.0.1",
+    "scrollama": "^2.1.2",
     "vue": "^2.6.10",
     "vue-bulma-accordion": "^0.4.8",
-    "vue-router": "^3.1.2",
+    "vue-router": "^3.1.3",
     "vuex": "^3.1.1"
   },
   "devDependencies": {
@@ -21,18 +21,18 @@
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-prettier": "^5.0.0",
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^10.0.3",
     "cname-webpack-plugin": "^2.0.0",
-    "eslint": "^6.2.1",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.2.3",
     "imports-loader": "^0.8.0",
-    "lint-staged": "^9.2.3",
+    "lint-staged": "^9.4.1",
     "node-sass": "^4.12.0",
     "postcss-import": "^12.0.1",
     "postcss-url": "^8.0.0",
     "prettier": "^1.18.2",
-    "sass-loader": "^7.3.1",
+    "sass-loader": "~7.3.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -79,7 +79,8 @@
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "dev": "npm run serve",
     "lint": "vue-cli-service lint",
-    "serve": "vue-cli-service serve --open"
+    "serve": "vue-cli-service serve --open",
+    "sync": "git pull && git subtree pull --prefix dist origin gh-pages"
   },
   "version": "0.1.0"
 }
