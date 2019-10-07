@@ -82,6 +82,9 @@ export default {}
 </script>
 
 <style lang="sass" scoped>
+.hero
+  height: calc(100vh - 52px)
+
 .control.npm
   img
     height: 36px;
