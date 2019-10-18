@@ -82,7 +82,7 @@ export default {}
 </script>
 
 <style lang="sass" scoped>
-.hero
+.hero.is-large
   height: calc(100vh - 52px)
 
 .control.npm
