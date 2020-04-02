@@ -27,7 +27,7 @@
       <div id="svg-logo-animation-container" ref="svg-logo-animation-container">
         <h2 class="title is-3">Brain.js is Modular</h2>
         <h3 class="subtitle is-5 has-text-weight-normal">
-          Brain.js implmentation is highly modular to easily allow
+          The Brain.js implementation is highly modular to allow easy
           extendability.
         </h3>
 
@@ -127,7 +127,7 @@
           Be a Part of Brain.js
         </h2>
         <div class="content">
-          <p>Contrinutions are always welcome!</p>
+          <p>Contributions are always welcome!</p>
           <a
             href="//github.com/BrainJS/brain.js/blob/master/CONTRIBUTING.md"
             class="button is-primary is-large"
@@ -162,7 +162,7 @@
     <div class="content has-text-centered">
       <h2 class="title is-3">Backers</h2>
       <p>
-        Thank you all the backers! 🙏<br /><br />
+        Thank you to all the backers! 🙏<br /><br />
         <a
           href="https://opencollective.com/brainjs#contributors"
           target="_blank"
@@ -176,7 +176,7 @@
 
     <div class="content has-text-centered">
       <h2 class="title is-3">Sponsors</h2>
-      <p>Thank you all the sponsors! 🙏<br /><br /></p>
+      <p>Thank you to all the sponsors! 🙏<br /><br /></p>
       <p>
         <a href="https://opencollective.com/brainjs" target="_blank"
           ><img
