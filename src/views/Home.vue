@@ -162,7 +162,7 @@
     <div class="content has-text-centered">
       <h2 class="title is-3">Backers</h2>
       <p>
-        Thank you to all the backers! 🙏<br /><br />
+        Thanks to all the backers! 🙏<br /><br />
         <a
           href="https://opencollective.com/brainjs#contributors"
           target="_blank"
@@ -176,7 +176,7 @@
 
     <div class="content has-text-centered">
       <h2 class="title is-3">Sponsors</h2>
-      <p>Thank you to all the sponsors! 🙏<br /><br /></p>
+      <p>Thanks to all the sponsors! 🙏<br /><br /></p>
       <p>
         <a href="https://opencollective.com/brainjs" target="_blank"
           ><img
