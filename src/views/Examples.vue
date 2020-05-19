@@ -4,7 +4,7 @@
     <h2 class="subtitle is-4">Some quick samples to quickly learn Brain.js</h2>
 
     <br />
-    <nav class="navbar is-light" style="z-index: 1">
+    <nav class="navbar is-light" style="z-index: 1;">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search:</span>
@@ -24,8 +24,8 @@
     <br />
     <transition-group name="slide-up" mode="out-in">
       <div
-        v-for="(example, index) in filteredExamples"
-        :key="index"
+        v-for="example in filteredExamples"
+        :key="example.title"
         :ref="example.title"
         class="example-container"
       >
@@ -57,7 +57,7 @@
     </transition-group>
 
     <br />
-    <div class="message is-dark">
+    <div class="message is-light">
       <div class="message-header">
         Looking for more examples?
       </div>
@@ -131,7 +131,7 @@ export default {
     filteredExamples() {
       const query = this.search.toLowerCase()
 
-      return this.$store.state.examples.filter(t => {
+      return this.$store.state.examples.filter((t) => {
         return (
           t.title.toLowerCase().includes(query) ||
           t.description.toLowerCase().includes(query) ||

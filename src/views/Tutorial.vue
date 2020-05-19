@@ -4,7 +4,7 @@
     <h2 class="subtitle is-4">Tutorials and guides to learn about Brain.js</h2>
 
     <br />
-    <div class="message is-dark">
+    <div class="message is-primary">
       <div class="message-header">
         Featured:
       </div>
@@ -43,7 +43,7 @@
 
     <br />
     <br />
-    <nav class="navbar is-light" style="z-index: 1">
+    <nav class="navbar is-light" style="z-index: 1;">
       <div class="navbar-brand">
         <span class="navbar-item">
           <span>Search:</span>
@@ -64,8 +64,8 @@
     <div class="custom-box">
       <transition-group name="slide-up" mode="out-in">
         <div
-          v-for="(tutorial, index) in filteredTutorials"
-          :key="index"
+          v-for="tutorial in filteredTutorials"
+          :key="tutorial.title"
           class="box"
         >
           <p class="title is-5">
@@ -125,7 +125,7 @@ export default {
     filteredTutorials() {
       const query = this.search.toLowerCase()
 
-      return this.$store.state.tutorials.filter(t => {
+      return this.$store.state.tutorials.filter((t) => {
         return (
           t.title.toLowerCase().includes(query) ||
           t.author.toLowerCase().includes(query) ||

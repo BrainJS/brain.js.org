@@ -37,8 +37,7 @@
       `Brain.js` depends on a native module `headless-gl` for gpu support. In
       most cases installing `brain.js` from npm should just work. However, if
       you run into problems, this mean prebuilt binaries are not able to
-      download from github reporsitories and you might need to build it
-      yourself.
+      download from github reporsitories and npm might need to build it for you.
     </div>
 
     <h2 class="title is-4">Building from source</h2>
@@ -46,7 +45,7 @@
       Please make sure the following dependencies are installed and up to date
       and then run:
 
-      <pre><code>$ npm rebuild</code></pre>
+      <pre><code lang="bash">npm rebuild</code></pre>
     </div>
 
     <h3 class="title is-5">System dependencies</h3>
@@ -77,7 +76,7 @@
           >
         </li>
       </ul>
-      <pre><code>$ sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev pkg-config</code></pre>
+      <pre><code>sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev pkg-config</code></pre>
 
       <h3 class="title is-5">Windows</h3>
       <ul>

@@ -1,7 +1,7 @@
 <template>
   <section
     :class="{ 'is-large': $route.name === 'home' }"
-    class="hero is-dark is-bold"
+    class="hero is-primary"
   >
     <div class="hero-body">
       <div class="container">
@@ -30,32 +30,19 @@
               </p>
 
               <div class="description">
-                <hr />
                 <p class="is-size-5">
-                  Brain.js is a GPU accelerated library of Neural Networks
-                  written in JavaScript for Browsers and Node.js. It is simple,
-                  fast and easy to use.
+                  Simple, fast and easy to use.
                 </p>
                 <div class="field is-grouped">
                   <p class="control">
                     <router-link
                       to="/getting-started"
-                      class="button is-light"
+                      class="button is-dark"
                       title="Installation & Quick Start"
                     >
                       <i class="material-icons">flash_on</i>
                       <span>Get Started Now</span>
                     </router-link>
-                  </p>
-                  <p class="control npm">
-                    <a
-                      href="https://nodei.co/npm/brain.js"
-                      style="border-bottom: none"
-                    >
-                      <img
-                        src="https://nodei.co/npm/brain.js.png/?compact=true"
-                      />
-                    </a>
                   </p>
                 </div>
               </div>
@@ -83,7 +70,7 @@ export default {}
 
 <style lang="sass" scoped>
 .hero.is-large
-  height: calc(100vh - 52px)
+  height: calc(100vh - 56px)
 
 .control.npm
   img

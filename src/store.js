@@ -44,13 +44,13 @@ export default new Vuex.Store({
       {
         title: 'Useful',
         description:
-          'Brain.js provided multiple neural network implementations as different neural nets can be trained to do different things well.',
+          'Brain.js provides multiple neural network implementations as different neural nets can be trained to do different things well.',
         link: '//github.com/BrainJS/brain.js#neural-network-types',
       },
       {
         title: 'Easy To Integrate',
         description:
-          'Easily export and import trained models to JSON format and as a function. Host pre-trained models on your website easily. ',
+          'Easily export and import trained models using JSON format or as a function. Host pre-trained models on your website easily. ',
         link: '//github.com/BrainJS/brain.js#json',
       },
     ],

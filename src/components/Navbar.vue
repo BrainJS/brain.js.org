@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-fixed-top is-default">
+  <nav class="navbar is-fixed-top is-primary">
     <div class="navbar-brand">
       <router-link to="/" class="navbar-item">
         <img
@@ -9,7 +9,7 @@
           height="28"
           class="bordered"
         />
-        &nbsp; Brain.js
+        Brain.js
       </router-link>
       <div
         class="navbar-burger burger"
@@ -24,10 +24,6 @@
 
     <div class="navbar-menu" :class="{ 'is-active': isNavBarOpen }">
       <div class="navbar-start">
-        <router-link to="/" class="navbar-item" title="Home">
-          <i class="material-icons">home</i>
-          &nbsp;Home
-        </router-link>
         <router-link
           to="/getting-started"
           class="navbar-item"
@@ -60,7 +56,7 @@
           <div class="field is-grouped">
             <p class="control">
               <a
-                class="bd-tw-button button is-light"
+                class="bd-tw-button button is-link"
                 target="_blank"
                 title="Tweet about Brain.js"
                 href="//twitter.com/intent/tweet?text=Brain.js: GPU accelerated Neural networks in JavaScript&amp;hashtags=brain.js,neuralNetworks,javascript,nodejs"
@@ -70,7 +66,7 @@
             </p>
             <p class="control">
               <a
-                class="button is-light"
+                class="button is-link"
                 target="_blank"
                 title="Brain.js on Github"
                 href="//github.com/BrainJS/brain.js"
@@ -80,13 +76,13 @@
             </p>
             <p class="control">
               <a
-                class="button is-primary"
+                class="button is-link"
                 title="Be a Sponsor or Backer to this project"
                 target="_blank"
                 href="//opencollective.com/brainjs"
               >
                 <i class="material-icons">attach_money</i>
-                <span>&nbsp; Support</span>
+                <span>&nbsp; Sponsor</span>
               </a>
             </p>
           </div>
@@ -118,4 +114,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.navbar-item > img
+  margin-right: 0.5em;
+</style>
