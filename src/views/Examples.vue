@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title is-3">Examples</h1>
-    <h2 class="subtitle is-4">Some quick samples to quickly learn Brain.js</h2>
+    <h2 class="subtitle is-4">Some quick samples to try Brain.js</h2>
 
     <br />
     <nav class="navbar is-light" style="z-index: 1;">
@@ -62,16 +62,26 @@
         Looking for more examples?
       </div>
       <div class="message-body">
-        Brain.js github repository also contains many
-        <a
-          href="https://github.com/BrainJS/brain.js/tree/master/examples/javascript"
-          >JavaScript Examples</a
-        >
-        and
-        <a
-          href="https://github.com/BrainJS/brain.js/tree/master/examples/typescript"
-          >Typescript Examples</a
-        >.
+        <ul>
+          <li>
+            <a
+              href="https://github.com/BrainJS/brain.js/tree/master/examples/javascript"
+              >JavaScript Examples in Brain.js Github repository</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/BrainJS/brain.js/tree/master/examples/typescript"
+              >Typescript Examples in Brain.js Github repository</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/bradtraversy/brainjs_examples"
+              >Some examples by @Brad Traversy</a
+            >
+          </li>
+        </ul>
+        <br />
       </div>
     </div>
 
@@ -102,7 +112,7 @@
       </p>
       <router-link
         to="/getting-started"
-        class="button is-primary is-large"
+        class="button is-primary is-medium"
         title="Installation & Quick Start"
       >
         Get Started Now

@@ -72,7 +72,6 @@
 
     <br />
     <br />
-    <br />
 
     <div class="custom-tags has-text-centered">
       <span
@@ -110,7 +109,7 @@
 
           <router-link
             to="/getting-started"
-            class="button is-primary is-large"
+            class="button is-primary is-medium"
             title="Installation & Quick Start"
           >
             Get Started Now
@@ -129,7 +128,7 @@
           <router-link
             to="//opencollective.com/brainjs#sponsor"
             title="Sponsor"
-            class="button is-primary is-large"
+            class="button is-primary is-medium"
           >
             Become a Sponsor
           </router-link>
@@ -146,7 +145,7 @@
 
           <a
             href="//github.com/BrainJS/brain.js/blob/master/CONTRIBUTING.md"
-            class="button is-primary is-large"
+            class="button is-primary is-medium"
             title="Github Repository"
             target="_blank"
           >

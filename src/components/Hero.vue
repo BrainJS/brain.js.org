@@ -70,7 +70,7 @@ export default {}
 
 <style lang="sass" scoped>
 .hero.is-large
-  height: calc(100vh - 56px)
+  height: calc(100vh - 52px)
 
 .control.npm
   img

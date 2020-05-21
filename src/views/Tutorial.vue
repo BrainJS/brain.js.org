@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title is-3">Tutorials & Guides</h1>
-    <h2 class="subtitle is-4">Tutorials and guides to learn about Brain.js</h2>
+    <h2 class="subtitle is-4">Tutorials and guides to learn Brain.js</h2>
 
     <br />
     <div class="message is-primary">
@@ -104,7 +104,7 @@
       </p>
       <router-link
         to="/getting-started"
-        class="button is-primary is-large"
+        class="button is-primary is-medium"
         title="Installation & Quick Start"
       >
         Get Started Now
