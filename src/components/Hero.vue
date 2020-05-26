@@ -19,15 +19,12 @@
           </figure>
           <div class="media-content">
             <div class="content">
-              <p>
-                <span class="title is-1">Brain.js</span>
-                <br />
-                <span class="subtitle is-2"
-                  >GPU accelerated Neural networks in JavaScript</span
-                >
-                <br />
+              <h1 class="title is-1">
+                Brain.js: GPU accelerated Neural networks in JavaScript
+              </h1>
+              <h2 class="subtitle is-2">
                 for Browsers and Node.js
-              </p>
+              </h2>
 
               <div class="description">
                 <p class="is-size-5">
