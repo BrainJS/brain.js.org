@@ -34,7 +34,7 @@
                   <p class="control">
                     <router-link
                       to="/getting-started"
-                      class="button is-dark"
+                      class="button is-light is-large"
                       title="Installation & Quick Start"
                     >
                       <i class="material-icons">flash_on</i>

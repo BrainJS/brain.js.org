@@ -42,13 +42,18 @@
               <p class="subtitle is-6">{{ example.description }}</p>
             </div>
             <div slot="content">
-              <iframe
-                :src="example.link"
-                width="100%"
-                height="480px"
-                allowfullscreen="allowfullscreen"
-                frameborder="0"
-              />
+              <template v-if="example.link.indexOf('jsfiddle') === -1">
+                <a :href="example.link" target="_blank">{{ example.title }}</a>
+              </template>
+              <template v-else>
+                <iframe
+                  :src="example.link"
+                  width="100%"
+                  height="480px"
+                  allowfullscreen="allowfullscreen"
+                  frameborder="0"
+                />
+              </template>
             </div>
           </BulmaAccordionItem>
         </bulmaAccordion>
