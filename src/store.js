@@ -120,6 +120,13 @@ export default new Vuex.Store({
         link:
           'https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3',
       },
+      {
+        title: 'Building a Wine Tasting Neural Network with Node.js',
+        description: '',
+        author: 'Valeri Karpov',
+        link:
+          'https://thecodebarbarian.com/building-a-wine-tasting-neural-network-with-node-js.html',
+      },
     ],
     examples: [
       {
