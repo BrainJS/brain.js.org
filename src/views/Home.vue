@@ -144,7 +144,7 @@
           <p>Contributions are always welcome!</p>
 
           <a
-            href="//github.com/BrainJS/brain.js/blob/master/CONTRIBUTING.md"
+            href="//github.com/BrainJS/brain.js/blob/master/.github/CONTRIBUTING.md"
             class="button is-primary is-medium"
             title="Github Repository"
             target="_blank"

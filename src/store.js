@@ -154,41 +154,49 @@ export default new Vuex.Store({
       {
         title: 'Using node streams',
         description: 'Train neural network using streams',
-        link: '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
+        link:
+          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
       },
       {
         title: 'Using node streams',
         description: 'Train neural network using streams',
-        link: '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
+        link:
+          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
       },
       {
         title: 'Forecasting',
         description: 'Predict next number, and forecast numbers',
-        link: '//github.com/BrainJS/brain.js/blob/master/examples/javascript/predict-numbers.js',
+        link:
+          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/predict-numbers.js',
       },
       {
         title: 'Maths',
         description: 'Learning math using a recurrent neural network',
-        link: '//github.com/BrainJS/brain.js/blob/master/examples/javascript/learn-math.js',
+        link:
+          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/learn-math.js',
       },
       {
         title: 'Cross Validate',
         description: 'Using cross validation with a feed forward net ',
-        link: '//github.com/BrainJS/brain.js/blob/master/examples/javascript/cross-validate.js',
+        link:
+          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/cross-validate.js',
       },
       {
         title: 'GPU powered AI',
         description: 'using the gpu in a browser',
-        link: 'https://github.com/BrainJS/brain.js/blob/master/examples/javascript/gpu.html',
+        link:
+          'https://github.com/BrainJS/brain.js/blob/master/examples/javascript/gpu.html',
       },
       {
         title: 'Cryotherapy Success Rate Prediction',
-        description: 'Predicting the Performance of Cryotherapy for Wart Treatment Using Machine Learning Algorithm.',
+        description:
+          'Predicting the Performance of Cryotherapy for Wart Treatment Using Machine Learning Algorithm.',
         link: '//github.com/iSumitBanik/Cryotherapy-Success-Rate',
       },
       {
         title: 'Rock Paper Scissors',
-        description: 'This game can read the players\' patterns to determine the steps the AI will take in order to win.',
+        description:
+          "This game can read the players' patterns to determine the steps the AI will take in order to win.",
         link: '//github.com/arifikhsan/batu-gunting-kertas-nuxt',
       },
     ],
