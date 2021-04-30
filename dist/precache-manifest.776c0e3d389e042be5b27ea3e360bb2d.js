@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8463d6dbc0a3f7a7508",
+    "revision": "3d82974610276d87d25d",
     "url": "css/app.css"
   },
   {
-    "revision": "91a60192284c68c04538",
+    "revision": "da778331b4cf8291c35d",
     "url": "css/examples.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "index.html"
   },
   {
-    "revision": "f8463d6dbc0a3f7a7508",
+    "revision": "3d82974610276d87d25d",
     "url": "js/app-legacy.js"
   },
   {
@@ -24,15 +24,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/chunk-vendors-legacy.js"
   },
   {
-    "revision": "91a60192284c68c04538",
+    "revision": "da778331b4cf8291c35d",
     "url": "js/examples-legacy.js"
   },
   {
-    "revision": "7247ff66a752506963eb",
+    "revision": "166410174fbeb5b43617",
     "url": "js/getting-started-legacy.js"
   },
   {
-    "revision": "ddea7131b2ceb5502367",
+    "revision": "675dc2041ac1983ea3f4",
     "url": "js/tutorial-legacy.js"
   },
   {
