@@ -125,13 +125,14 @@
         <div class="content">
           <p>Support this project by becoming a Sponsor or Backer.</p>
 
-          <router-link
-            to="//opencollective.com/brainjs#sponsor"
+          <a
+            href="https://opencollective.com/brainjs#sponsor"
             title="Sponsor"
             class="button is-primary is-medium"
+            target="_blank"
           >
             Become a Sponsor
-          </router-link>
+          </a>
         </div>
       </div>
 
@@ -144,7 +145,7 @@
           <p>Contributions are always welcome!</p>
 
           <a
-            href="//github.com/BrainJS/brain.js/blob/master/.github/CONTRIBUTING.md"
+            href="https://github.com/BrainJS/brain.js/blob/master/.github/CONTRIBUTING.md"
             class="button is-primary is-medium"
             title="Github Repository"
             target="_blank"
