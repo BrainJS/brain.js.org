@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d82974610276d87d25d",
+    "revision": "13efbba1d166b2e5890e",
     "url": "css/app.css"
   },
   {
-    "revision": "da778331b4cf8291c35d",
+    "revision": "defeedbee7c17c0929bd",
     "url": "css/examples.css"
   },
   {
@@ -12,27 +12,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/logo.svg"
   },
   {
-    "revision": "c5b0b9be54e0ce89faee73d7c039bb59",
+    "revision": "9e01976bb9e0c20916bb8240f6aee6be",
     "url": "index.html"
   },
   {
-    "revision": "3d82974610276d87d25d",
+    "revision": "13efbba1d166b2e5890e",
     "url": "js/app-legacy.js"
   },
   {
-    "revision": "228137733c49494ecb08",
+    "revision": "733f2a89b41076596542",
     "url": "js/chunk-vendors-legacy.js"
   },
   {
-    "revision": "da778331b4cf8291c35d",
+    "revision": "defeedbee7c17c0929bd",
     "url": "js/examples-legacy.js"
   },
   {
-    "revision": "166410174fbeb5b43617",
+    "revision": "33c763cb8e38190fef57",
     "url": "js/getting-started-legacy.js"
   },
   {
-    "revision": "675dc2041ac1983ea3f4",
+    "revision": "510814eb20940f2fe182",
     "url": "js/tutorial-legacy.js"
   },
   {
