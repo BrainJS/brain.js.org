@@ -103,29 +103,25 @@ export default new Vuex.Store({
         title: 'BRAIN.JS: NEURAL NETWORKS IN JAVASCRIPT',
         description: '',
         author: 'http://badassjs.com',
-        link:
-          'http://badassjs.com/post/729676907/brainjs-neural-networks-in-javascript',
+        link: 'http://badassjs.com/post/729676907/brainjs-neural-networks-in-javascript',
       },
       {
         title: 'Neural Networks in JavaScript with Brain.js',
         description: '',
         author: 'Scott Robinson',
-        link:
-          'https://stackabuse.com/neural-networks-in-javascript-with-brain-js/',
+        link: 'https://stackabuse.com/neural-networks-in-javascript-with-brain-js/',
       },
       {
         title: 'You can build a neural network in JavaScript',
         description: '',
         author: 'Daniel Simmons',
-        link:
-          'https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3',
+        link: 'https://itnext.io/you-can-build-a-neural-network-in-javascript-even-if-you-dont-really-understand-neural-networks-e63e12713a3',
       },
       {
         title: 'Building a Wine Tasting Neural Network with Node.js',
         description: '',
         author: 'Valeri Karpov',
-        link:
-          'https://thecodebarbarian.com/building-a-wine-tasting-neural-network-with-node-js.html',
+        link: 'https://thecodebarbarian.com/building-a-wine-tasting-neural-network-with-node-js.html',
       },
     ],
     examples: [
@@ -154,38 +150,27 @@ export default new Vuex.Store({
       {
         title: 'Using node streams',
         description: 'Train neural network using streams',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
-      },
-      {
-        title: 'Using node streams',
-        description: 'Train neural network using streams',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
+        link: '//github.com/BrainJS/brain.js-examples/blob/main/src/stream-example.ts',
       },
       {
         title: 'Forecasting',
         description: 'Predict next number, and forecast numbers',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/predict-numbers.js',
+        link: '//github.com/BrainJS/brain.js-examples/blob/main/src/predict-numbers.ts',
       },
       {
         title: 'Maths',
         description: 'Learning math using a recurrent neural network',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/learn-math.js',
+        link: '//github.com/BrainJS/brain.js-examples/blob/main/src/learn-math.ts',
       },
       {
         title: 'Cross Validate',
         description: 'Using cross validation with a feed forward net ',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/cross-validate.js',
+        link: '//github.com/BrainJS/brain.js-examples/blob/main/src/cross-validate.ts',
       },
       {
         title: 'GPU powered AI',
         description: 'using the gpu in a browser',
-        link:
-          'https://github.com/BrainJS/brain.js/blob/master/examples/javascript/gpu.html',
+        link: 'https://github.com/BrainJS/brain.js/blob/master/examples/javascript/gpu.html',
       },
       {
         title: 'Cryotherapy Success Rate Prediction',
