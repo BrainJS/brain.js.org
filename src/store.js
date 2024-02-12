@@ -155,37 +155,31 @@ export default new Vuex.Store({
         title: 'Using node streams',
         description: 'Train neural network using streams',
         link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
-      },
-      {
-        title: 'Using node streams',
-        description: 'Train neural network using streams',
-        link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/stream-example.js',
+          '//github.com/BrainJS/brain.js-examples/blob/main/src/stream-example.ts',
       },
       {
         title: 'Forecasting',
         description: 'Predict next number, and forecast numbers',
         link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/predict-numbers.js',
+          'https://github.com/BrainJS/brain.js-examples/blob/main/src/predict-numbers.ts',
       },
       {
         title: 'Maths',
         description: 'Learning math using a recurrent neural network',
         link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/learn-math.js',
+          'https://github.com/BrainJS/brain.js-examples/blob/main/src/learn-math.ts',
       },
       {
         title: 'Cross Validate',
         description: 'Using cross validation with a feed forward net ',
         link:
-          '//github.com/BrainJS/brain.js/blob/master/examples/javascript/cross-validate.js',
+          'https://github.com/BrainJS/brain.js-examples/blob/main/src/learn-math.ts',
       },
       {
         title: 'GPU powered AI',
         description: 'using the gpu in a browser',
         link:
-          'https://github.com/BrainJS/brain.js/blob/master/examples/javascript/gpu.html',
+          'https://github.com/BrainJS/brain.js-examples/blob/main/src/feed-forward-gpu-xor.ts',
       },
       {
         title: 'Cryotherapy Success Rate Prediction',
